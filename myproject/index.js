@@ -10,8 +10,6 @@ function previewSecondName(event) {
 }
 document.getElementById('second_name').addEventListener('keyup', previewSecondName)
 
-
-
 function previewLastName(event) {
   console.log(event.srcElement.value)
   document.getElementById('last_name_preview').innerText = event.srcElement.value
