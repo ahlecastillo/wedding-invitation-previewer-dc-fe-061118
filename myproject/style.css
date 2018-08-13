@@ -1,0 +1,17 @@
+.flexbox{
+	display: flex;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+#card_content{
+	background-color: red;
+}
+
+
+#card_preview{
+	background-color: green;
+}
